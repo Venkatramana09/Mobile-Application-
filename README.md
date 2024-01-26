@@ -7,6 +7,7 @@ List the top 5 insights which have been derived by you based on analysis of the 
 DAX Formulas Used:
 
 Monetization Cohort = 
+
 SWITCH(
     TRUE(),
     'Dataset1 (2)'[Average Spent on App (INR)]< 30, "Low",
