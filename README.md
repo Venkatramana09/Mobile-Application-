@@ -4,6 +4,7 @@ List the top 5 insights which have been derived by you based on analysis of the 
 **Tools used: Power BI, Dax, and Excel **
 
 DAX Formulas Used:
+
 Monetization Cohort = 
 SWITCH(
     TRUE(),
@@ -12,6 +13,7 @@ SWITCH(
     'Dataset1 (2)'[Average Spent on App (INR)] >= 60, "High",
     "Unknown"
 )
+
 Engagement Cohort = 
 SWITCH(
     TRUE(),
@@ -20,6 +22,7 @@ SWITCH(
     'Dataset1 (2)'[Average Screen Time (mins)] >= 60, "High",
     "Unknown"
 )
+
 Security Behavior Cohort = 
 SWITCH(
     TRUE(),
@@ -28,6 +31,7 @@ SWITCH(
     'Dataset1 (2)'[New Password Request] > 2, "Multiple Requests",
     "Unknown"
 )
+
 Recency Cohort = 
 SWITCH(
     TRUE(),
