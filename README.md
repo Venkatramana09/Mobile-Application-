@@ -1,4 +1,4 @@
-# Mobile-Application-
+# Mobile-Application-Platform
 User level data for a mobile application has been provided. You are expected to do the following:  Create user cohorts based on the user metrics provided. You may also choose to build cohorts using single/ a combination of the metrics provided. Explain the rationale for the cohorts created by you. How would it be useful in analysing.
 List the top 5 insights which have been derived by you based on analysis of the data provided.
 
@@ -7,7 +7,6 @@ List the top 5 insights which have been derived by you based on analysis of the 
 DAX Formulas Used:
 
 Monetization Cohort = 
-
 SWITCH(
     TRUE(),
     'Dataset1 (2)'[Average Spent on App (INR)]< 30, "Low",
